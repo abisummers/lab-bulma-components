@@ -3,6 +3,7 @@ import React from "react";
 function FormField(props) {
   const { label, type, placeholder } = props;
 
+  //what is rendered in the DOM
   return (
     <div>
       <div className="field">
